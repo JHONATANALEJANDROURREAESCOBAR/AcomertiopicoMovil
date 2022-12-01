@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Acomertipico/app/src/main/res/layout/activity_main.xml" value="0.45643153526970953" />
+        <entry key="..\:/Acomertipico/app/src/main/res/drawable/inicio_sesion.xml" value="0.33" />
+        <entry key="..\:/Acomertipico/app/src/main/res/drawable/radiobutton.xml" value="0.25" />
+        <entry key="..\:/Acomertipico/app/src/main/res/layout/activity_main.xml" value="0.18046709129511676" />
+        <entry key="..\:/Acomertipico/app/src/main/res/layout/inicio_sesion.xml" value="0.2" />
       </map>
     </option>
   </component>
