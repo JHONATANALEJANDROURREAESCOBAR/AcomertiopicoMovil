@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:inputType="textEmailAddress"
-                android:text="Nombre Comleto"
+                android:text="Nombre Completo"
                 android:textColor="@color/white"
                 android:textSize="24dp" />
             <EditText
@@ -122,30 +122,19 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginEnd="10dp">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:background="@drawable/radiobutton"
-                    android:layout_margin="20dp"
-                    android:gravity="center">
-                </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="116dp"
-                    android:layout_height="60dp"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/radiobutton"
+                <Button
+                    android:layout_width="174dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="140dp"
+                    android:padding="20dp"
+                    android:text="Registrarse"
+                    android:textAlignment="center"
                     android:backgroundTint="#22BD5C"
-                    android:gravity="center">
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
 
-                    <TextView
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:padding="20dp"
-                        android:text="Registrarse"
-                        android:textAlignment="center"
-                        android:textColor="@color/white" />
-                </LinearLayout>
 
             </LinearLayout>
         </LinearLayout>
