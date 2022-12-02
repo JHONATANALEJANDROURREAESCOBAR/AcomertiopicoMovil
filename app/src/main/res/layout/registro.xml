@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondologin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="271dp"
+            android:layout_height="197dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="BIENVENIDO A"
+                android:textSize="16dp"
+                android:textColor="@color/purple_700"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AcomerTípico"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/inicio_sesion"
+            android:layout_marginHorizontal="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:text="Inicio de Sesión"
+                android:textAlignment="center"
+                android:textColor="@color/white">
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtcorreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:inputType="textEmailAddress"
+                android:text="Nombre Comleto"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+            <EditText
+                android:id="@+id/edtescribacorreo"
+                android:background="@drawable/radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtcorreo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:inputType="textEmailAddress"
+                android:text="Correo"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/edtescribacontraseña2"
+                android:background="@drawable/radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/edtcontraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:inputType="textEmailAddress"
+                android:text="Contraseña"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/edtescribacontraseña"
+                android:background="@drawable/radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_margin="20dp"
+                    android:gravity="center">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="116dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/radiobutton"
+                    android:backgroundTint="#22BD5C"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        android:text="Registrarse"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
