@@ -55,9 +55,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textSize="24dp"
-                android:text="Inicio de Sesión"
+                android:text="Registro"
                 android:textAlignment="center"
-                android:textColor="@color/white">
+                android:textColor="#B3F8F7F7">
             </TextView>
 
             <EditText
@@ -66,12 +66,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:inputType="textEmailAddress"
-                android:text="Nombre Comleto"
-                android:textColor="@color/white"
+                android:text="Nombre Completo"
+                android:textColor="#B3F8F7F7"
                 android:textSize="24dp" />
             <EditText
                 android:id="@+id/edtescribacorreo"
-                android:background="@drawable/radiobutton"
+                android:background="@drawable/inicio_sesion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -82,15 +82,15 @@
                 android:id="@+id/edtcorreo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="20dp"
                 android:inputType="textEmailAddress"
                 android:text="Correo"
-                android:textColor="@color/white"
+                android:textColor="#B3F8F7F7"
                 android:textSize="24dp" />
 
             <EditText
                 android:id="@+id/edtescribacontraseña2"
-                android:background="@drawable/radiobutton"
+                android:background="@drawable/inicio_sesion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -101,15 +101,15 @@
                 android:id="@+id/edtcontraseña"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="20dp"
                 android:inputType="textEmailAddress"
                 android:text="Contraseña"
-                android:textColor="@color/white"
+                android:textColor="#B3F8F7F7"
                 android:textSize="24dp" />
 
             <EditText
                 android:id="@+id/edtescribacontraseña"
-                android:background="@drawable/radiobutton"
+                android:background="@drawable/inicio_sesion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -118,31 +118,23 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:layout_marginEnd="10dp">
+                android:gravity="center">
+
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="219dp"
                     android:layout_height="60dp"
                     android:background="@drawable/radiobutton"
-                    android:layout_margin="20dp"
-                    android:gravity="center">
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="116dp"
-                    android:layout_height="60dp"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/radiobutton"
-                    android:backgroundTint="#22BD5C"
-                    android:gravity="center">
+                    android:backgroundTint="#22BD5C">
 
                     <TextView
-                        android:layout_width="130dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="20dp"
+                        android:textSize="24dp"
                         android:text="Registrarse"
+                        android:gravity="center"
                         android:textAlignment="center"
                         android:textColor="@color/white" />
                 </LinearLayout>
