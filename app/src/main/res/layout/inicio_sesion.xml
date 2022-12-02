@@ -57,7 +57,7 @@
                 android:textSize="24dp"
                 android:text="Inicio de Sesión"
                 android:textAlignment="center"
-                android:textColor="@color/white">
+                android:textColor="#B3F8F7F7">
             </TextView>
 
             <EditText
@@ -67,11 +67,11 @@
                 android:layout_marginTop="25dp"
                 android:inputType="textEmailAddress"
                 android:text="Correo"
-                android:textColor="@color/white"
+                android:textColor="#B3F8F7F7"
                 android:textSize="24dp" />
             <EditText
                 android:id="@+id/edtescribacorreo"
-                android:background="@drawable/radiobutton"
+                android:background="@drawable/inicio_sesion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -85,12 +85,12 @@
                 android:layout_marginTop="25dp"
                 android:inputType="textEmailAddress"
                 android:text="Contraseña"
-                android:textColor="@color/white"
+                android:textColor="#B3F8F7F7"
                 android:textSize="24dp" />
 
             <EditText
                 android:id="@+id/edtescribacontraseña"
-                android:background="@drawable/radiobutton"
+                android:background="@drawable/inicio_sesion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
@@ -122,7 +122,7 @@
                     android:layout_width="116dp"
                     android:layout_height="60dp"
                     android:layout_margin="20dp"
-                    android:background="@drawable/radiobutton"
+                    android:background="@drawable/inicio_sesion"
                     android:backgroundTint="#22BD5C"
                     android:gravity="center">
 
