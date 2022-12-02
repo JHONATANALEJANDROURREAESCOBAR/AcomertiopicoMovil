@@ -47,6 +47,7 @@
                     android:layout_marginTop="10dp"
                     android:textColor="@color/white"
                     android:textSize="24dp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginTop="8dp"
@@ -54,6 +55,7 @@
                     android:text="Deleita tu paladar "
                     android:textColor="@color/white"
                     android:textSize="24dp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
